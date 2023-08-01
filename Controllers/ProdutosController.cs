@@ -23,9 +23,7 @@ namespace APICatalogo.Controllers
             var produtos = _context.Produtos.ToList();
 
             if (produtos is null)
-            {
                 return NotFound("Produtos não encontrados...");
-            }
             return produtos;
         }
 
@@ -35,9 +33,7 @@ namespace APICatalogo.Controllers
             var produto = _context.Produtos.FirstOrDefault(p => p.ProdutoId == id);
 
             if (produto is null)
-            {
                 return NotFound("Produto não encontrado...");
-            }
 
             return produto;
         }
@@ -58,9 +54,7 @@ namespace APICatalogo.Controllers
         public ActionResult Put(int id, Produto produto)
         {
             if (id != produto.ProdutoId)
-            {
                 return BadRequest();
-            }
 
             _context.Entry(produto).State = EntityState.Modified;
             _context.SaveChanges();
@@ -74,9 +68,7 @@ namespace APICatalogo.Controllers
             var produto = _context.Produtos.FirstOrDefault(p => p.ProdutoId == id);
 
             if (produto is null)
-            {
                 return NotFound("Produto não localizado");
-            }
 
             _context.Produtos.Remove(produto);
             _context.SaveChanges();
