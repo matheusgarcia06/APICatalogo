@@ -20,7 +20,7 @@ Gerenciamento de produtos: permite criar, recuperar, atualizar e excluir produto
 
 # Diagrama UML de Classes
 
-![image](https://github.com/matheusgarcia06/APICatalogo/assets/73717076/92dca689-8683-4acd-b0e5-c7de5e982521)
+![image](https://github.com/matheusgarcia06/APICatalogo/assets/73717076/e5dcf2b3-b2a2-494a-9c1e-5e86767a4eae)
 
 ## Instalação e uso
 
