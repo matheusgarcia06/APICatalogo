@@ -51,7 +51,7 @@ namespace APICatalogo.Controllers
             }
         }
 
-        [HttpGet("{id}: int", Name = "ObterCategoria")]
+        [HttpGet("{id:int}", Name = "ObterCategoria")]
         public ActionResult<Categoria> Get(int id)
         {
             try
@@ -96,7 +96,7 @@ namespace APICatalogo.Controllers
 
         }
 
-        [HttpPut("{id}:int")]
+        [HttpPut("{id:int}")]
         public ActionResult Put(int id, Categoria categoria)
         {
             try
@@ -117,7 +117,7 @@ namespace APICatalogo.Controllers
 
         }
 
-        [HttpDelete("{id}:int")]
+        [HttpDelete("{id:int}")]
         public ActionResult<Categoria> Delete(int id)
         {
             try
