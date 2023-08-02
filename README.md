@@ -18,6 +18,10 @@ Gerenciamento de produtos: permite criar, recuperar, atualizar e excluir produto
 - ASP.NET Core Web API
 - Banco de Dados SQL Server
 
+# Diagrama UML de Classes
+
+![image](https://github.com/matheusgarcia06/APICatalogo/assets/73717076/92dca689-8683-4acd-b0e5-c7de5e982521)
+
 ## Instalação e uso
 
 ```bash
