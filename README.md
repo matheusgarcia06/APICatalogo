@@ -52,18 +52,18 @@ dotnet ef database update
 
 # Categorias
 
-GET /api/categorias: Retorna todas as categorias cadastradas.
-GET /api/categorias/{id}: Retorna uma categoria específica pelo seu ID.
-POST /api/categorias: Cria uma nova categoria.
-PUT /api/categorias/{id}: Atualiza uma categoria existente pelo seu ID.
-DELETE /api/categorias/{id}: Exclui uma categoria pelo seu ID.
+- GET /api/categorias: Retorna todas as categorias cadastradas.
+- GET /api/categorias/{id}: Retorna uma categoria específica pelo seu ID.
+- POST /api/categorias: Cria uma nova categoria.
+- PUT /api/categorias/{id}: Atualiza uma categoria existente pelo seu ID.
+- DELETE /api/categorias/{id}: Exclui uma categoria pelo seu ID.
 
 # Produtos
-GET /api/produtos: Retorna todos os produtos cadastrados.
-GET /api/produtos/{id}: Retorna um produto específico pelo seu ID.
-POST /api/produtos: Cria um novo produto associado a uma categoria.
-PUT /api/produtos/{id}: Atualiza um produto existente pelo seu ID.
-DELETE /api/produtos/{id}: Exclui um produto pelo seu ID.
+- GET /api/produtos: Retorna todos os produtos cadastrados.
+- GET /api/produtos/{id}: Retorna um produto específico pelo seu ID.
+- POST /api/produtos: Cria um novo produto associado a uma categoria.
+- PUT /api/produtos/{id}: Atualiza um produto existente pelo seu ID.
+- DELETE /api/produtos/{id}: Exclui um produto pelo seu ID.
 
 # Autor
 
